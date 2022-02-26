@@ -1,0 +1,46 @@
+body{
+    background-color: lightblue;
+    margin: 0px;
+}
+
+h2{
+    text-align: center;
+}
+
+form{
+    background-color: white;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+}
+
+.input-items{
+    margin-left: 18px;
+    margin-top: 18px;
+    margin-bottom: 7px;
+    border-radius: 5px;
+    outline: none ;
+    border: 1px solid lightgrey;
+    padding: 6px;
+}
+
+div > input{
+    background-color: lightgray;
+    padding: 6px;
+    margin-left: 18px;
+    margin-top: 18px;
+    margin-bottom: 7px;
+    border-radius: 5px;
+    outline: none ;
+    border: 1px solid lightgrey;
+    cursor: not-allowed;
+
+}
+
+.input-items:hover{
+        background-color: azure;
+}
+form .input-items:focus{
+    background-color: bisque;
+}
