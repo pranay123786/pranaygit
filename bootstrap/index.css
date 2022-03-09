@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.mynavbar{
+    height: 80px;
+}
+
+#logo{
+    border-radius: 40px;
+    font-size: 30px;
+    font-weight: 700;
+    background-color: white;
+}
+
+.myitems{
+    justify-content: end;
+}
+
+#menu-wrapper{
+    position: relative;
+    top: 10px;
+    left: 60px;
+}
+
+.menu-item:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+header{
+    margin-bottom: 0px;
+}
+
+img{
+    width: 100%;
+    height: 600px;
+}
+
+.center-logo{
+    font-size: 50px;
+    font-weight: 700;
+    border-radius: 50px;
+    padding: 15px;
+    
+    
+    position: absolute;
+    top:30%;
+    left: 50%;
+}
