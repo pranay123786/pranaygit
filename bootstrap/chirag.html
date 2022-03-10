@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>search page</title>
+    <!-- Icon of WebPage -->
+    <link rel="icon" href="./Images/breakfast.jpg" />
+    <!-- bootstrap css cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- external css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <div class="container-fluid col-md-12 home_main_container mx-auto">
+        <!-- navbar -->
+        <nav class="navbar navbar-light">
+            <form class="container-fluid d-flex justify-content-end mt-3">
+                <button class="btn btn-lg btn_1" type="button">Login</button>
+                <button class="btn btn-lg btn-outline-light btn_2" type="button">Create an account</button>
+            </form>
+        </nav>
+
+        <!-- home page -->
+        <div class="sub_home container-fluid col-md-9 col-11">
+            <div class="home_symbol text-center mt-5 mb-5">
+                <span class="symbl">e!</span>
+            </div>
+
+            <div class="home_heading text-center">
+                <h1>Find the best restaurants, cafes and bars.</h1>
+            </div>
+
+            <div class="home_search_row d-flex justify-content-center">
+                <div class="selection">
+                    <select class="form-select home_form_select ps-3" aria-label="Default select example">
+                        <option selected class="sltd">Location</option>
+                        <option value="1">Mumbai</option>
+                        <option value="2">Dehli</option>
+                        <option value="3">Banglore</option>
+                        <option value="4">Kolkata</option>
+                        <option value="5">Goa</option>
+                        <option value="6">Chennai</option>
+                    </select>
+                </div>
+
+                <div class="input-group mb-3 input-group-1 mb-5">
+                    <span class="input-group-text" id="basic-addon2"><i class="fa-solid fa-magnifying-glass"></i></span>
+                    <input type="text" class="form-control form-control-1" placeholder="Search for restaurants"
+                        aria-label="Recipient's username" aria-describedby="basic-addon2">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- qs page -->
+    <div class="container-fluid mx-auto qs bg-light mb-4">
+        <div class="container-fluid col-md-11 col-11 mx-auto">
+            <h2 class="text-center pt-4">Quick Searches</h2>
+            <p class="text-center mb-4 para_qs">Discover restaurants by type of meal</p>
+
+            <div class="row d-flex flex-row justify-content-center">
+                <div class="card mb-3" style="max-width: 400px;">
+                    <div class="row g-0">
+                        <div class="col-md-6">
+                            <img src="Images/breakfast.jpg" class="card-img img-fluid" alt="...">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card-body text-center">
+                                <h5 class="card-title mt-2">Breakfast</h5>
+                                <p class="card-text mb-2">Start your day with exclusive breakfast optiopns.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card mb-3" style="max-width: 400px;">
+                    <div class="row g-0">
+                        <div class="col-md-6">
+                            <img src="Images/lunch.jpg" class="card-img img-fluid" alt="...">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card-body text-center">
+                                <h5 class="card-title mt-2">Lunch</h5>
+                                <p class="card-text mb-2">Start your day with exclusive breakfast optiopns.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card mb-3" style="max-width: 400px;">
+                    <div class="row g-0">
+                        <div class="col-md-6">
+                            <img src="Images/snacks.png" class="card-img img-fluid" alt="...">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card-body text-center">
+                                <h5 class="card-title mt-2">Snacks</h5>
+                                <p class="card-text mb-2">Start your day with exclusive breakfast optiopns.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card mb-3" style="max-width: 400px;">
+                    <div class="row g-0">
+                        <div class="col-md-6">
+                            <img src="Images/dinner.png" class="card-img img-fluid" alt="...">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card-body text-center">
+                                <h5 class="card-title mt-2">Dinner</h5>
+                                <p class="card-text mb-2">Start your day with exclusive breakfast optiopns.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card mb-3" style="max-width: 400px;">
+                    <div class="row g-0">
+                        <div class="col-md-6">
+                            <img src="Images/drinks.png" class="card-img img-fluid" alt="...">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card-body text-center">
+                                <h5 class="card-title mt-2">Drinks</h5>
+                                <p class="card-text mb-2">Start your day with exclusive breakfast optiopns.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card mb-3" style="max-width: 400px;">
+                    <div class="row g-0">
+                        <div class="col-md-6">
+                            <img src="Images/nightlife.png" class="card-img img-fluid" alt="...">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card-body text-center">
+                                <h5 class="card-title mt-2">Nightlife</h5>
+                                <p class="card-text mb-2">Start your day with exclusive breakfast optiopns.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- bootstrap script bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
