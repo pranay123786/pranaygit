@@ -26,6 +26,31 @@
     vertical-align: center;
 }
 
+.logo{
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-bottom: 10px;
+    border-radius: 60px;
+    font-size: 60px;
+    font-weight:600;
+}
+
+.location-box{
+    height: 40px;
+    border-radius: 5px;
+    padding-left: 20px;
+    margin-left: 50px;
+}
+
+.search-icon:hover:active{
+    cursor: default;
+    width: 20px;
+}
+
+
+
+
+
 /* Quick searches */
 
 
