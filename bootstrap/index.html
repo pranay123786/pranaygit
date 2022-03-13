@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="en"> 
-  <head>
+  <head> 
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -56,92 +56,115 @@
                     </datalist>
             </div>
                 
-            <div class="input-group col-sm-10" style="width: 30%;">
+            <div class="input-group col-sm-12 text-center" style="width:auto;">
                   <input type="text" class="form-control" placeholder="Search for restaurants" />
                   <span class="input-group-text"><a class="search-icon" href="#"><img class="search-img" src="D:\mygit\bootstrap\Images\icon.png" alt="search-icon" /></a></span>
             </div>
         </div>
     </div>
 
-    <!-- Quick-search -->
+  <!-- Quick-search -->
 
-    <div class="container-fluid bg-light">
+    <div class="container-fluid bg-basic">
         <h3>Quick Searches</h3>
         <p>Discover restaurants by type of meal</p>
-       <!-- 1st Row -->
-        <div class="row mx-auto">
-            <div class="col-4">
-                <div class="row container">
-                    <div class="col">
-                        <img src="D:\mygit\bootstrap\Images\breakfast.jpg" class="breakfast" alt="breakfast" />
+  
+  <!-- 1st Row -->
+        
+          <div class="row">
+            <div class="card me-5" style="width:380px;" >
+                <div class="row">
+                    <div class="col-sm-4">
+                       <img src="D:\mygit\bootstrap\Images\breakfast.jpg" width="150vw" height="150vh" alt="breakfast" />
                     </div>
-                    <div class="col">
-                        <h5 class="text-primary">Breakfast</h5>
-                        <p>Start your day with exclusive breakfast</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-4">
-                <div class="row conatiner">
-                    <div class="col">
-                        <img src="D:\mygit\bootstrap\Images\lunch.jpg" alt="lunch" />
-                    </div>
-                    <div class="col">
-                        <h5 class="text-primary">Lunch</h5>
-                        <p>Start your day with exclusive Lunch</p>
+                    <div class="col-sm-4">
+                        <div class="card-body">
+                            <h5 class="card-title text-primary">Breakfast</h5>
+                            <p class="card-text">Start your day with exclusive breakfast</p>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-4">
-              <div class="row container">
-                  <div class="col">
-                      <img src="D:\mygit\bootstrap\Images\snacks.png" style="width: 250px; height: 150px;" alt="snacks" />
+            
+            <div class="card" style="width:380px;" >
+              <div class="row no-gutter">
+                  <div class="col-sm-4">
+                     <img src="D:\mygit\bootstrap\Images\lunch.jpg" width="150vw" height="150vh" alt="Lunch" />
                   </div>
-                  <div class="col">
-                      <h5 class="text-primary">Snacks</h5>
-                      <p>Start your day with exclusive snacks</p>
+                  <div class="col-sm-8">
+                      <div class="card-body">
+                        <h5 class="card-title text-primary">Lunch</h5>
+                        <p class="card-text">Start your day with exclusive Lunch</p>
+                      </div>
                   </div>
               </div>
             </div>
-        </div>
+
+            <div class="card me-5" style="width:380px;" >
+              <div class="row no-gutter">
+                  <div class="col-sm-4">
+                    <img src="D:\mygit\bootstrap\Images\snacks.png" width="150vw" height="150vh" alt="snacks" />
+                  </div>
+                  <div class="col-sm-8">
+                      <div class="card-body">
+                        <h5 class="card-title text-primary">Snacks</h5>
+                        <p class="card-text">Start your day with exclusive snacks</p>
+                      </div>
+                  </div>
+              </div>
+            </div>
+          
+          </div>
              
-      <!-- 2nd Row -->
-      <div class="row mb-5 mt-3 mx-auto">
-        <div class="col-4">
-            <div class="row container">
-                <div class="col">
-                    <img src="D:\mygit\bootstrap\Images\dinner.png" alt="Dinner" />
-                </div>
-                <div class="col">
-                    <h5 class="text-primary">Dinner</h5>
-                    <p>Start your day with exclusive dinner</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-4">
-            <div class="row conatiner">
-                <div class="col">
-                    <img src="D:\mygit\bootstrap\Images\drinks.png" alt="Drinks" />
-                </div>
-                <div class="col">
-                    <h5 class="text-primary">Drinks</h5>
-                    <p>Start your day with exclusive drinks</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-4">
-          <div class="row conatiner">
-              <div class="col">
-                  <img src="D:\mygit\bootstrap\Images\nightlife.png" alt="Nightlife" />
+<!-- 2nd Row -->
+      
+      <div class="row pl-5 mb-5 mt-5">
+        
+        <div class="card me-5" style="width:380px;" >
+          <div class="row no-gutter">
+              <div class="col-sm-4">
+                <img src="D:\mygit\bootstrap\Images\dinner.png" width="150vw" height="150vh" alt="Dinner" />
               </div>
-              <div class="col">
-                  <h5 class="text-primary">Nightlife</h5>
-                  <p>Start your day with exclusive Nightlife</p>
+              <div class="col-sm-8">
+                  <div class="card-body justify-content-start">
+                    <h5 class="card-title text-primary">Dinner</h5>
+                    <p class="card-text">Start your day with exclusive dinner</p>
+                  </div>
+              </div>
+          </div>
+        </div>
+
+        <div class="card me-5" style="width:380px;" >
+          <div class="row no-gutter">
+              <div class="col-sm-4">
+                <img src="D:\mygit\bootstrap\Images\drinks.png" width="150vw" height="150vh" alt="Drinks" />
+              </div>
+              <div class="col-sm-8">
+                  <div class="card-body">
+                    <h5 class="card-title text-primary">Drinks</h5>
+                    <p class="card-text">Start your day with exclusive drinks</p>
+                  </div>
+              </div>
+          </div>
+        </div>
+        
+        <div class="card me-5" style="width:380px;" >
+          <div class="row no-gutters">
+              <div class="col-sm-4">
+                <img src="D:\mygit\bootstrap\Images\nightlife.png" width="150vw" height="150vh" alt="Nightlife" />
+              </div>
+              <div class="col-sm-8">
+                  <div class="card-body">
+                    <h5 class="card-title text-primary">Nightlife</h5>
+                    <p class="card-text">Start your day with exclusive Nightlife</p>
+                  </div>
               </div>
           </div>
         </div>
       </div>
-  </div>
+    </div>
+  </body>
+</html>
     
 
     <!--
@@ -246,5 +269,4 @@
 
     
   
-  </body>
-</html>
+ 
