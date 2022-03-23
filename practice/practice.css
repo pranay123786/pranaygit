@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* 1st Nav-bar */
+
+.contacts:hover{
+    color: white;
+}
+
+/* 2nd Nav-bar */
+
+.nav2{
+    position:sticky;
+    top:0px;
+}
+
+.logo{
+    font-family: 'Saira Condensed', sans-serif;
+}
+
+.Menu-items{
+    font-size: 18px;
+}
+
+.appoint{
+    border: 1px solid #fff;
+    border-radius: 1px;
+    background-color:burlywood;
+}
+
+.appoint:hover{
+    color: white;
+    background-color: brown;
+}
+
+/* 3rd Nav-bar */
+
+.nav3{
+    background-color: antiquewhite;
+}
+

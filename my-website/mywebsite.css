@@ -1,0 +1,217 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.acc-cre{
+    border: 1px solid #accccc;  
+}
+
+.acc-cre:hover{
+    background-color: rgba(144,200,100,0.2);
+    color: black;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+}
+
+
+/* carousel */
+
+.carousel{
+    margin-top: 100px;
+}
+
+.carousel-item > img {
+    max-height: 600px;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body{ 
+    margin: 0px;
+    background: linear-gradient(to right, #c0d1f5,#d1e2a0);
+}
+
+header{
+    background:linear-gradient(to left,burlywood,lightgray);
+    width: 100%;
+    height: 100px;
+    box-shadow: 2px 5px 7px lightgray;
+    position: sticky;
+    top: 0px;
+}
+
+#menu-wrapper{
+    color: ghostwhite;
+    font-size: 30px;
+    float: right;           
+    margin: 35px;
+}
+
+.heading{
+    float: left;
+    position: absolute;
+    left: 8%;
+    top: -17px;
+    color: white;
+    text-decoration: none;
+    margin: 26px;
+    background: linear-gradient(to right,#f869d5,#5650de);
+    border-radius: 80px;
+    word-spacing: 5px;
+    line-height: 0px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.heading:hover{
+    border: 1px solid gainsboro;
+    text-shadow: 2px 5px 20px white;
+    text-decoration: underline;
+    color: linear-gradient(to right,#f869d5,#5650de);
+}
+
+.menu-item{
+    padding-left: 28px;
+    padding-right: 28px;
+    background: linear-gradient(to right,#f869d5,#5650de);
+    border-radius: 25px;
+    color: white;
+    text-decoration: none;
+}
+
+.menu-item:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+#login-form{
+    width: 450px;
+    background: linear-gradient(to right,hsl(180, 80%, 56%),#f869d5);
+    margin:0 auto;
+    margin-top: 10%;
+    background-color: white;
+    border-radius: 8px;
+}
+
+#login-form:hover{
+    border: hsl(225, 4%, 80%);
+    box-shadow: 0px 0px 8px white;
+}
+
+.input-item{
+    width: 94%;
+    margin: 15px 10px;
+    padding: 5px;
+    padding-right: -1px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
+
+.input-item:focus{
+    width: 93%;
+    border: 1px solid rgba(0, 0,0,0.2);
+    background-color: lightcyan;
+}
+
+.input-item:hover{
+    width: 93%;
+    border: 1px solid rgba(0, 0,0,0.5);
+    box-shadow: 0px 0px 5px gray;
+}
+
+.login-btn{
+    width: auto;
+    padding: 5px 15px;
+    margin:15px 10px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+.login-btn:hover{
+    border-radius: 6px;
+    border: 1px solid rgba(0, 0,0,0.5);
+    box-shadow: 0px 0px 5px gray;
+}
+
+.paragraph{
+    margin-left: 15px;
+    display: inline-block;
+}
+
+.register-wrapper{
+    display: inline-block;
+}
+
+.register-btn{
+    width: auto;
+    padding: 5px 15px;
+    margin:15px 10px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+
+.register-btn:hover{
+    border-radius: 6px;
+    border: 1px solid rgba(0, 0,0,0.5);
+    box-shadow: 0px 0px 5px gray;
+} */

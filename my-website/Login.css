@@ -1,0 +1,13 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+form{
+    background-color: hsl(255, 29%, 97%);
+    width: 30%;
+}
+
+.email{
+    width: 100%;
+}
